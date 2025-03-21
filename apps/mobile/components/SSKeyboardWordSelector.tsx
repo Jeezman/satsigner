@@ -1,3 +1,4 @@
+// update this component to use flashlist
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import {
   Animated,
