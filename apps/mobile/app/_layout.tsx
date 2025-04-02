@@ -21,6 +21,8 @@ import {
 import { useAuthStore } from '@/store/auth'
 import { Colors } from '@/styles'
 
+require('../ReactotronConfig')
+
 if (Platform.OS === 'android') {
   SystemUI.setBackgroundColorAsync(Colors.gray[950])
 
